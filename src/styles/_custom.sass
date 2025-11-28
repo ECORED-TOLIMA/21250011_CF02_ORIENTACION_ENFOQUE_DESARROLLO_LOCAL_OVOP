@@ -2,15 +2,8 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
-
+    top: 7%
+    right: 2%
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -22,6 +15,283 @@
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
     background-size: cover
     background-position: center
-  
-.txt--green
-  color: #39A900 !important
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+//- Modulo tarjetas
+.tarjeta--tabla
+  background-color: #FFFCEB
+  &:nth-child(even)
+    background-color: #D9E6FF
+.tarjeta--C01
+  background-color: #FFFCEB
+.tarjeta--C02
+  background: #FFEFDB
+.tarjeta--C03
+  background: #FFC811
+.tarjeta--C04
+  background: #D9E6FF
+.tarjeta--C05
+  background-color: #FFDEDE
+  word-break: break-word
+  overflow-wrap: anywhere
+.tarjeta--C06
+  background-color: #FFE9A2
+.BG01
+  background-image: url("../assets/curso/temas/BG01.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.BG03
+  background-image: url("../assets/curso/temas/BG03.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.tarjeta--BG02
+  background-image: url("../assets/curso/temas/BG02.png")
+  background-size: cover
+  background-repeat: no-repeat
+.tarjeta--BG04
+  background-image: url("../assets/curso/temas/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
+.BG05
+  background-image: url("../assets/curso/temas/BG05.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -0.7rem !important
+.BG06
+  background-image: url("../assets/curso/temas/BG06.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+//- Modulo cajones
+.cajon.C01
+  background-color: #FFE9A2
+.cajon.C02
+  background-color: #FFFCEB
+.cajon.C03
+  background-color: #FFEFDB
+//- Modulo tablas
+.table
+  width: 100%
+  table-layout: fixed
+  border-collapse: collapse
+thead
+  tr
+    th
+      background-color: #D9E6FF
+//- Modulo tablas
+.table
+  width: 100%
+  table-layout: fixed
+  border-collapse: collapse
+thead
+  tr
+    th
+      background-color: #D9E6FF
+.tabla-a.responsive
+  width: 100%
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  border-radius: 8px
+  th, td
+  padding: 0.75rem
+  text-align: left
+  vertical-align: top
+  word-break: break-word
+  hyphens: auto
+@media (max-width: 768px)
+  th, td
+    font-size: 0.85rem
+    padding: 0.5rem
+//- Modulo listas 
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+//- Modulo slyders
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+.slyder-b__btn--sigt, .slyder-a__btn--atrs, .slyder__btn:hover
+  background-color: #A40F1E
+  color: #FFFF
+  border: none
+  opacity: 100
+  background-image: url(../assets/curso/temas/chevron-right2.png)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #A40F1E
+  color: #FFFF
+  border: none
+  opacity: 100
+  background-image: url(../assets/curso/temas/chevron-right2.png)
+.slyder-a__bullets__item
+  background-color: #1E2AD5
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #A40F1E
+  border: none
+//Modulo lineas de tiempo
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, 
+  background-color: #FFEFDB
+  border: none
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #FFEFDB !important 
+    .tarjeta.tarjeta--gris
+      background-color: #A40F1E      
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #D9E6FF
+.tarjeta.tarjeta--gris
+  background-color: #A40F1E
+.linea-tiempo-d__item__number
+  span
+    color: #ffffff
+// Modulo versión escritorio/movil para figuras
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+//- modulo titulos adicionales
+.titulo01
+  position: relative
+  left: -2%
+  background-color: #FFEFDB
+  border-radius: 20px
+  h3
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+.etiqueta01
+  position: relative
+  left: -2%
+  background-color: #FFEFDB
+  h5
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+.titulo-sexto.color-acento-contenido01
+  border-left-color: #634419
+//- Modulo tarjetas hover - horizontal
+
+.img90
+  width: 90px 
+.img50
+  width: 50px
+.img100
+  width: 100px
+.img150
+  width: 150px
+.img180
+  width: 180px
+.img200
+  width: 200px
+.img250
+  width: 250px
+.img260
+  width: 260px
+.img280
+  width: 280px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #D9E6FF 
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #FFEFDB !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+// modulo tabs
+.tabs-c__content-item
+  background-color: #FFFCEB  
+.tabs-c__tab
+  background-color: #FFDEDE
+.tabs-c__tab--active
+  background-color: #fff
+.tabs-b__tab--active:hover
+  background-color: #FFDEDE
+.tabs-b__content-item
+  background-color: #DEFFF4
+.tabs-b__tab
+  background-color: #FFDEDE
+.tabs-b__tab--active
+  background-color: #DEFFF4
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+//- Modulo acordions
+.acordion
+  .acordion__activo
+    background-color: #FFEFDB
+  .acordion__accion__btn--b
+    background-color: #A40F1E  
+    border: none
+    color: #ffffff
+  .acordion__accion__btn--a
+    background-color: #A40F1E
+    border: none
+    color: #ffffff

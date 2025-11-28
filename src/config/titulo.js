@@ -1,1 +1,1 @@
-module.exports = 'ECOBASE_SENA'
+module.exports = 'Gestión y empoderamiento comunitario bajo el enfoque OVOP'
