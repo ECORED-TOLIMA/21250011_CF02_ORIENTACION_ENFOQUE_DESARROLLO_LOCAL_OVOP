@@ -6,7 +6,7 @@
     
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-12.mb-5.bgs.p-4.brad
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt=" En la síntesis del componente formativo se representa la relación entre las guías metodológicas de la ruta OVOP, los procesos de empoderamiento comunitario y los elementos de la comunicación asertiva.")
       .col-auto

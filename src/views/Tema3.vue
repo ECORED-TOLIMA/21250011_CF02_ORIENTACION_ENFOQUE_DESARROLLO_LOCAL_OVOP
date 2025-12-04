@@ -64,7 +64,7 @@
         .col-md-10.col-12
           .tarjeta.tarjeta--C01.p-4
             figure.mb-3
-              img(src='@/assets/curso/temas/tema3/img05_.png', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema3/img04_.png', alt='Imagen decorativa')
             h4 Comunicación escrita
             p.mb-0 Se materializa en documentos, actas, relatorías, boletines y material informativo que permiten registrar acuerdos y avances. En OVOP es clave para garantizar transparencia y trazabilidad en los procesos.
       .row.justify-content-center.align-items-center.mb-5

@@ -343,7 +343,7 @@
                 .cajon.cajon.C02.p-0.h-100
                   img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema1/img15.svg' alt="Imagen decorativa")
               .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
-                .cajon.cajon.C01.p-3.h-100
+                .cajon.cajon.C02.p-3.h-100
                   h4 Bocadillo veleño
                   p – Vélez (Santander).
           .col-lg-6.col-12
@@ -352,7 +352,7 @@
                 .cajon.cajon.C02.p-0.h-100
                   img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema1/img16.svg' alt="Imagen decorativa")
               .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
-                .cajon.cajon.C01.p-3.h-100
+                .cajon.cajon.C02.p-3.h-100
                   h4 Cerámica negra
                   p – La Chamba (Tolima).
           .col-lg-6.col-12
@@ -361,16 +361,16 @@
                 .cajon.cajon.C02.p-0.h-100
                   img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema1/img17.svg' alt="Imagen decorativa")
               .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
-                .cajon.cajon.C01.p-3.h-100
+                .cajon.cajon.C02.p-2.h-100.mb-0
                   h4 Sombrero vueltiao y productos en caña flecha
-                  p  – Tuchín (Córdoba).
+                  p.mb-0  – Tuchín (Córdoba).
           .col-lg-6.col-12
             .row.justify-content-center
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C02.p-0.h-100
                   img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema1/img18.svg' alt="Imagen decorativa")
               .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
-                .cajon.cajon.C01.p-3.h-100
+                .cajon.cajon.C02.p-3.h-100
                   h4 Mochilas Wayuu
                   p  – La Guajira.
     .row.justify-content-center.mb-5(data-aos="flip-up")
@@ -398,7 +398,7 @@
                     img(src='@/assets/curso/temas/tema1/img21.svg', alt='Imagen decorativa')
                 .col-lg-9.col-12.order-lg-2.order-2
                   p(data-aos="fade-down") Un ejemplo emblemático es Tuchín, Córdoba, donde el 90 % de sus 57.361 habitantes trabaja en la cadena de valor de la caña flecha: 73,3 % en tejido, 13,6 % en confección, 6,8 % en sombrerería y 2,3 % en cestería (DANE, 2024).
-    p.mb-5(data-aos="fade-down") Estos tesoros o recursos se clasifican en:
+    //- p.mb-5(data-aos="fade-down") Estos tesoros o recursos se clasifican en:
     .row.align-items-center.mb-5(data-aos="flip-down")
       .col-auto.pe-0(style="z-index:2")
         figure
@@ -476,13 +476,11 @@
           img(src='@/assets/curso/temas/tema1/img26.svg', alt='En la figura 5 se representa un modelo de Negocio Colectivo, en el cual la mejora del valor junto con el aumento de los ingresos genera la maximización de los beneficios.')
           figcaption Nota. Tomado de la Guía 7 OVOP Colombia (SENA, JICA, MinCIT, 2020).
     p.mb-5(data-aos="fade-down") Cuando un territorio selecciona “Mi Producto” OVOP e identifica a las unidades familiares, organizaciones e individuos que hacen parte de su cadena de valor y que están interesados en establecer relaciones de trabajo colaborativo para impulsar el crecimiento económico de su comunidad, es necesario definir un modelo de negocio que permita cumplir con los objetivos principales de dicho trabajo colectivo.
-    p(data-aos="fade-down") La estructura del Modelo de Negocio Colectivo para la gestión de “Mi Producto” OVOP se expresa en la metodología CANVAS. Este modelo permite representar, de manera gráfica, un modelo de negocio a través de nueve módulos que abarcan cuatro áreas principales: clientes, oferta, infraestructura y viabilidad económica. Para el enfoque OVOP se emplea Lean Canvas, una adaptación que ofrece una estructura más simple, pero que permite construir un modelo de negocio más completo que el obtenido mediante el modelo PICTO.
-    p.mb-5(data-aos="fade-down") Lean Canvas es una herramienta utilizada en la fase inicial de creación de una empresa. Su propósito es validar de forma clara y visual el modelo de negocio, identificar debilidades y fortalezas y aplicar las mejoras necesarias para aumentar las posibilidades de obtener beneficios (Founderz, s. f).
-    .row.justify-content-center.mb-3.p-5(data-aos="flip-up")
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-9.position-relative
         .avatar
           figure
-            img(src="@/assets/curso/temas/tema1/img27.svg", alt="Imagen decorativa").img260
+            img(src="@/assets/curso/temas/tema1/img27.svg", alt="Imagen decorativa").img250
         .crd.crd--avatarHorizontal.crd--first.py-4
           .row.align-items-center
             .col-auto
@@ -1365,6 +1363,7 @@
                 li.mb-0
                   i.fas.fa-angle-right
                   | Promover el diálogo entre distintos sectores y actores del territorio.
+    p.mb-0(data-aos="fade-down") Asimismo, la guía plantea una metodología basada en talleres participativos, orientados a:
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
         p.mb-0(data-aos="fade-down") 
@@ -1425,9 +1424,9 @@
                   figure
                     img(src='@/assets/curso/temas/tema1/img56.svg', alt='Imagen decorativa')
                 .col-lg-9.col-12.order-lg-2.order-2
-                  p(data-aos="fade-down") Objetivo principal es orientar a facilitadores y coordinadores para aplicar herramientas de <em>marketing</em> adaptadas al contexto del desarrollo local, de modo que la promoción del producto sirva como palanca para el crecimiento económico, social y cultural.
+                  p(data-aos="fade-down") El objetivo principal es orientar a facilitadores y coordinadores para aplicar herramientas de <em>marketing</em> adaptadas al contexto del desarrollo local, de modo que la promoción del producto sirva como palanca para el crecimiento económico, social y cultural.
     p.mb-5(data-aos="fade-down") La guía plantea un ciclo de <em>marketing</em> particular denominado <b>R-STP-MM-I-C</b> que consta de los siguientes pasos:
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="zoom-in")
+    AcordionA.mb-0(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="zoom-in")
       .row.justify-content-center(titulo="Investigación (R)")
         .col-lg-6.order-lg-1.order-2
           ul.lista-ul--color.mb-0(data-aos="fade-down") 
