@@ -183,7 +183,7 @@ export default {
     {
       tema: '3.1. Tipos de comunicación',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023). <em>Tipos de comunicación</em> [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2024). <em>Tipos de comunicación</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=HEFAvzcIzM8',
     },

@@ -87,7 +87,7 @@
             h4.text-center(data-aos="fade-down") Sueño colectivo formulado.
     .row.justify-content-center.mb-5
       .col-lg-7.col-12
-        p.mb-0(data-aos="fade-down") Los conceptos OVOP que se trabajan en este taller, ya estudiados anteriormente son:
+        p.mb-0(data-aos="fade-down") Los conceptos OVOP que se trabajan en este taller, ya estudiados anteriormente, son:
     .row.justify-content-center.mb-5
       .col-lg-8.col-12
         .tarjeta.tarjeta--C02.p-4
@@ -131,16 +131,16 @@
               tr
                 th(colspan="3").text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") GUÍA PARA LA ELABORACIÓN DEL PLAN DE ACCIÓN COMUNITARIO
               tr
-                td(colspan="3")(data-aos="fade-down")(style="background-color: #F6F6F6") <b>Objetivo del taller</b>: formular un plan de acción comunitario bajo el enfoque OVOP, el cual será la ruta de trabajo de la iniciativa identificando actividades que permitan alcanzar el sueño colectivo para la revitalización del territorio alrededor del producto OVOP definido.
+                td(colspan="3")(data-aos="fade-down")(style="background-color: #F6F6F6") <b>Objetivo del taller</b>: formular un plan de acción comunitario bajo el enfoque OVOP, el cual será la ruta de trabajo de la iniciativa, identificando actividades que permitan alcanzar el sueño colectivo para la revitalización del territorio alrededor del producto OVOP definido.
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") Condiciones previas:
                   ul.lista-ul.mb-0(data-aos="fade-down")
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Resultados análisis de cadena de valor simple de “Mi Producto” OVOP.
+                      p.mb-0 Resultados del análisis de cadena de valor simple de “Mi Producto” OVOP.
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Resultados efecto económico múltiple de “Mi Producto” OVOP.
+                      p.mb-0 Resultados del efecto económico múltiple de “Mi Producto” OVOP.
                     li.mb-0
                       i.lista-ul__vineta
                       p.mb-0 Sueño colectivo.
@@ -163,7 +163,7 @@
               tr
                 td(data-aos="fade-down") <b>Identifiquemos nuestros líderes y actores de cambio</b>: los participantes identifican el tipo de liderazgo con el que se sienten representados, escribiéndolo en una tarjeta de color según la categoría. Luego, estas tarjetas se entregan a los líderes de mesa, quienes las organizan en un pliego con tres columnas correspondientes a los tipos de líderes OVOP.
                 td(data-aos="fade-down") 60 minutos
-                td(data-aos="fade-down") Clasificación líderes y actores.
+                td(data-aos="fade-down") Clasificación de líderes y actores.
               tr
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Receso.
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") 15 minutos
@@ -249,10 +249,10 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Tamaño carta.
               tr
                 td(data-aos="fade-down") Cuestionarios.
-                td(colspan="2")(data-aos="fade-down") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down") Copias iguales a # de participantes.
               tr
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Guía del taller.
-                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias iguales a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
                 td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
@@ -692,10 +692,10 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Tamaño carta.
               tr
                 td(data-aos="fade-down") Cuestionarios.
-                td(colspan="2")(data-aos="fade-down") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down") Copias iguales a # de participantes.
               tr
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Guía del taller.
-                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias iguales a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
                 td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
@@ -939,10 +939,10 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Tamaño carta.
               tr
                 td(data-aos="fade-down") Cuestionarios.
-                td(colspan="2")(data-aos="fade-down") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down") Copias iguales a # de participantes.
               tr
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Guía del taller.
-                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias iguales a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
                 td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
@@ -1264,10 +1264,10 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Tamaño carta.
               tr
                 td(data-aos="fade-down") Cuestionarios.
-                td(colspan="2")(data-aos="fade-down") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down") Copias iguales a # de participantes.
               tr
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Guía del taller.
-                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias iguales a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
                 td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
@@ -1612,10 +1612,10 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Tamaño carta.
               tr
                 td(data-aos="fade-down") Cuestionarios.
-                td(colspan="2")(data-aos="fade-down") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down") Copias iguales a # de participantes.
               tr
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Guía del taller.
-                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias iguales a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
                 td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
@@ -1770,7 +1770,7 @@
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") 20 minutos
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Sensibilización acerca de las condiciones y reglas para el desarrollo del taller.
               tr
-                td(data-aos="fade-down") <b>Desarrollo de la metodología MCP</b>: explicar y orienta la herramienta seleccionada para la elaboración del modelo de negocio.
+                td(data-aos="fade-down") <b>Desarrollo de la metodología MCP</b>:
                   ul.lista-ul.mb-0(data-aos="fade-down")
                     li.mb-0
                       i.lista-ul__vineta
@@ -1855,10 +1855,10 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Tamaño carta.
               tr
                 td(data-aos="fade-down") Cuestionarios.
-                td(colspan="2")(data-aos="fade-down") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down") Copias iguales a # de participantes.
               tr
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Guía del taller.
-                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
+                td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias iguales a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
                 td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas

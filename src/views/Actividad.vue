@@ -16,7 +16,7 @@ export default {
       tema: 'tema_actividad_didactica',
       titulo: 'Cuestionario',
       introduccion:
-        'Objetivo: lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
+        'Objetivo: evaluar la comprensión de los aprendices sobre los elementos fundamentales de la ruta metodológica OVOP, el empoderamiento comunitario y la comunicación asertiva, verificando su capacidad para identificar conceptos clave y su relación con los procesos de desarrollo territorial.',
       barajarPreguntas: true,
       preguntas: [
         {
